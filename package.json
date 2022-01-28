@@ -4,6 +4,9 @@
   "main": "index.js",
   "repository": "https://github.com/lucasbernardol/instagram-clone.git",
   "license": "MIT",
+  "scripts": {
+    "dev": "sass ./styles/main.scss -w -s compressed ./dist/index.css"
+  },
   "devDependencies": {
     "sass": "^1.49.0"
   }
