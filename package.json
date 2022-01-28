@@ -1,0 +1,7 @@
+{
+  "name": "instagram-clone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lucasbernardol/instagram-clone.git",
+  "license": "MIT"
+}
