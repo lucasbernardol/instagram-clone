@@ -1,0 +1,35 @@
+.toolbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .toolbar-list {
+    display: flex;
+    justify-content: center;
+
+    .toolbar-item {
+      margin-right: 1.4em;
+
+      &.camera {
+        display: none;
+      }
+
+      .toolbar-anchor {
+        display: block;
+        font-size: 0;
+        padding: 0;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .toolbar-item {
+        display: none;
+
+        &.camera,
+        &.direct {
+          display: block;
+        }
+      }
+    }
+  }
+}

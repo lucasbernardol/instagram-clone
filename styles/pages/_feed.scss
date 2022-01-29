@@ -1,8 +1,10 @@
 @import '../components/wrapper';
 @import '../components/avatar';
 
-@import '../components/header_wrapper'; // header
-@import '../components/header';
+@import '../components/header_wrapper';
+@import '../components/header'; // header
+@import '../components/header_searchbox';
+@import '../components/header_toolbar';
 
 @import '../components/main_wrapper'; // main
 @import '../components/main';
