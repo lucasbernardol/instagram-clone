@@ -15,16 +15,17 @@
   <body data-id="body">
     <div class="wrapper">
       <header class="header-wrapper">
-        <nav class="header-content">
-          <section class="logo-wrapper">
-            <a href="#" title="Instagram" title="Instagram">
-              <img src="./assets/logo.png" alt="logo" />
+        <nav class="header-container">
+          <section class="marker-wrapper">
+            <a class="instagram-wrapper" href="#" title="Instagram">
+              <img src="./assets/logo.png" class="instagram-logo full-width" />
             </a>
           </section>
 
-          <section class="form-wrapper">
+          <section class="search-wrapper">
             <form action="#" method="POST" class="form-container">
               <img class="absolute-img" src="./assets/svg/search.svg" />
+
               <input type="text" name="search" placeholder="Pesquisar" />
             </form>
           </section>
@@ -77,6 +78,88 @@
           </section>
         </nav>
       </header>
+
+      <main class="main-wrapper">
+        <section class="main-container">
+          <section class="main-separation">
+            <section class="status-wrapper">Histórias</section>
+
+            <!-- Publication/section -->
+            <section class="publication-wrapper">
+              <header class="publication-header">
+                <div href="#" class="publication-profile">
+                  <div class="publication-avatar">
+                    <a href="#" class="avatar medium" title="José Lucas">
+                      <img
+                        src="https://images.unsplash.com/photo-1581599129568-e33151627628?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                        alt="avatar"
+                        class="avatar-image"
+                      />
+                    </a>
+                  </div>
+
+                  <a href="#" title="José Lucas">José Lucas</a>
+                </div>
+
+                <div class="publication-info">
+                  <a href="#"><img src="./assets/svg/more.svg" alt="more" /></a>
+                </div>
+              </header>
+
+              <main class="publication-center">
+                <img
+                  src="https://images.unsplash.com/photo-1581599129568-e33151627628?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                  alt=""
+                  class="full-width"
+                />
+              </main>
+
+              <footer class="publication-footer">
+                <section class="actions-wrapper">
+                  <div class="action-left">
+                    <button><img src="./assets/svg/heart.svg" alt="" /></button>
+                    <button>
+                      <img src="./assets/svg/comment.svg" alt="" />
+                    </button>
+                    <button>
+                      <img src="./assets/svg/direct.svg" alt="" />
+                    </button>
+                  </div>
+
+                  <button><img src="./assets/svg/mark.svg" alt="" /></button>
+                </section>
+
+                <section class="comments-wrapper">
+                  <p class="views"><strong>1.152</strong> visualizações</p>
+                  <p>
+                    <strong>Lorem ipsum is dolor </strong>ur, study purposes
+                  </p>
+
+                  <p>Representação textual: Lorem ipsum is dolor ur</p>
+
+                  <a href="#" class="all-comments">Ver todos os comentários</a>
+                </section>
+
+                <section class="interaction-wrapper">
+                  <img src="./assets/svg/smile.svg" alt="Smile" />
+
+                  <form action="#" method="POST" class="interaction-form">
+                    <input
+                      type="text"
+                      name="comment"
+                      placeholder="Adicionar comentário..."
+                    />
+                    <button disabled>Publicar</button>
+                  </form>
+                </section>
+              </footer>
+            </section>
+            <!-- End -->
+          </section>
+
+          <aside class="sidebar-wrapper">Informações</aside>
+        </section>
+      </main>
     </div>
   </body>
 </html>
