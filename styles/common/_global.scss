@@ -28,6 +28,7 @@ select {
 
 button {
   cursor: pointer;
+  background-color: transparent;
 }
 
 a {
@@ -55,4 +56,9 @@ img {
 
 body {
   background-color: var(--color-background);
+}
+
+.full-width {
+  width: 100%;
+  height: 100%;
 }

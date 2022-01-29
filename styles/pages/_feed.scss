@@ -1,4 +1,8 @@
 @import '../components/wrapper';
-
-@import '../components/header';
 @import '../components/avatar';
+
+@import '../components/header_wrapper'; // header
+@import '../components/header';
+
+@import '../components/main_wrapper'; // main
+@import '../components/main';
