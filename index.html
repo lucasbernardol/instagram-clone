@@ -8,7 +8,7 @@
     <meta name="author" content="José Lucas" />
     <meta name="description" content="Instagram clone with sass" />
 
-    <link rel="stylesheet" href="./dist/index.css" />
+    <link rel="stylesheet" type="text/css" href="./dist/index.css" />
 
     <title>Instagram</title>
   </head>
@@ -128,6 +128,19 @@
 
                 <p>José Lucas Lira</p>
               </div>
+
+              <div class="status-item">
+                <div class="status-avatar">
+                  <div class="avatar-status">
+                    <img
+                      src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFuJTIwZmFjZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                      alt=""
+                    />
+                  </div>
+                </div>
+
+                <p>José Lucas Lira</p>
+              </div>
             </section>
 
             <!-- Publication/section -->
@@ -148,7 +161,9 @@
                 </div>
 
                 <div class="publication-info">
-                  <a href="#"><img src="./assets/svg/more.svg" alt="more" /></a>
+                  <a href="#" class="show-info">
+                    <img src="./assets/svg/more.svg" alt="more" />
+                  </a>
                 </div>
               </header>
 
@@ -207,5 +222,22 @@
         </section>
       </main>
     </div>
+
+    <section class="publication-modal-wrapper hidden">
+      <section class="publication-modal">
+        <button class="publication-btn danger">Denunciar</button>
+        <button class="publication-btn danger">Deixar de seguir</button>
+
+        <button class="publication-btn">Ir para publicação</button>
+        <button class="publication-btn">Compartilhar</button>
+        <button class="publication-btn">Copiar link</button>
+        <button class="publication-btn">Incorporar</button>
+        <button class="publication-btn" data-id="publication-exit">
+          Cancelar
+        </button>
+      </section>
+    </section>
+
+    <script src="./scripts/index.js"></script>
   </body>
 </html>
