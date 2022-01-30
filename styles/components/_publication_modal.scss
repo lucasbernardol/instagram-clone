@@ -1,0 +1,48 @@
+@keyframes publication-modal-fade {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+.publication-modal {
+  width: min(100%, 40rem);
+
+  border-radius: 0.8rem;
+  background-color: var(--color-white);
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+
+  animation: publication-modal-fade 0.5s ease-out;
+
+  .publication-btn {
+    display: block;
+
+    width: 100%;
+    padding: 1.4rem;
+    border-bottom: 1px solid var(--color-gray-line);
+
+    background: transparent;
+    transition: background 0.1s ease-in;
+
+    &.danger {
+      color: var(--color-danger);
+      font-weight: 600;
+    }
+
+    &:hover {
+      background-color: var(--color-light-gray);
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .publication-modal {
+    margin: 0 1rem; // (10px)
+  }
+}
