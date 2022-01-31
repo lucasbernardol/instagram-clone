@@ -1,8 +1,13 @@
+@import './header_wrapper';
+
+@import './header_searchbox';
+@import './header_toolbar';
+
 .header-content {
   width: min(100%, 980px);
   height: 100%;
 
-  padding: 0 1.6rem; // (16px)
+  padding: 0 1.6rem;
 
   display: flex;
   align-items: center;
@@ -15,14 +20,9 @@
   cursor: pointer;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 800px) {
   .header-content {
-    justify-content: space-evenly;
-  }
-}
-
-@media (max-width: 600px) {
-  .header-content {
-    justify-content: space-between;
+    width: 60rem; // 600px
+    padding: 0;
   }
 }

@@ -38,8 +38,9 @@
   }
 }
 
-@media (max-width: 780px) {
+@media (max-width: 800px) {
   .search-container {
     display: none;
+    opacity: 0;
   }
 }
