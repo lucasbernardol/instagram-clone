@@ -5,10 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <meta name="keywords" content="Instagram, app, clone, scss" />
     <meta name="author" content="José Lucas" />
     <meta name="description" content="Instagram clone with sass" />
 
     <link rel="stylesheet" type="text/css" href="./dist/index.css" />
+
+    <script defer src="./scripts/index.js"></script>
 
     <title>Instagram</title>
   </head>
@@ -71,11 +74,7 @@
 
             <section class="avatar-wrapper">
               <a href="#" class="avatar" title="Imagem de perfil">
-                <img
-                  src="https://images.unsplash.com/photo-1581599129568-e33151627628?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-                  alt="avatar"
-                  class="avatar-image"
-                />
+                <img src="./assets/people.jpg" alt="avatar" />
               </a>
             </section>
           </section>
@@ -86,56 +85,30 @@
         <section class="main-container">
           <section class="main-separation">
             <section class="statusbar-container">
-              <div class="statusbar-content">
+              <div class="statusbar-item">
                 <section class="statusbar-avatar">
                   <div class="status-avatar">
-                    <img
-                      src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFuJTIwZmFjZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-                      alt=""
-                      class="status-picture"
-                    />
+                    <img src="./assets/people.jpg" alt="Avatar" />
                   </div>
                 </section>
 
                 <p class="ellipsis">José Lucas Lira</p>
               </div>
 
-              <div class="statusbar-content">
+              <div class="statusbar-item">
                 <section class="statusbar-avatar">
                   <div class="status-avatar">
-                    <img
-                      src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFuJTIwZmFjZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-                      alt=""
-                      class="status-picture"
-                    />
+                    <img src="./assets/people.jpg" alt="Avatar" />
                   </div>
                 </section>
 
                 <p class="ellipsis">José Lucas Lira</p>
               </div>
 
-              <div class="statusbar-content">
+              <div class="statusbar-item">
                 <section class="statusbar-avatar">
                   <div class="status-avatar">
-                    <img
-                      src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFuJTIwZmFjZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-                      alt=""
-                      class="status-picture"
-                    />
-                  </div>
-                </section>
-
-                <p class="ellipsis">José Lucas Lira</p>
-              </div>
-
-              <div class="statusbar-content">
-                <section class="statusbar-avatar">
-                  <div class="status-avatar">
-                    <img
-                      src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFuJTIwZmFjZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-                      alt=""
-                      class="status-picture"
-                    />
+                    <img src="./assets/people.jpg" alt="Avatar" />
                   </div>
                 </section>
 
@@ -143,16 +116,12 @@
               </div>
             </section>
 
-            <!-- Publication/section -->
             <section class="publication-container">
               <header class="publication-header">
                 <section class="publication-owner">
                   <div class="avatar-owner">
                     <a href="#" class="avatar medium" title="José Lucas">
-                      <img
-                        src="https://images.unsplash.com/photo-1581599129568-e33151627628?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-                        alt="avatar"
-                      />
+                      <img src="./assets/people.jpg" alt="avatar" />
                     </a>
                   </div>
 
@@ -212,87 +181,14 @@
                 </section>
               </footer>
             </section>
-
-            <section class="publication-container">
-              <header class="publication-header">
-                <section class="publication-owner">
-                  <div class="avatar-owner">
-                    <a href="#" class="avatar medium" title="José Lucas">
-                      <img
-                        src="https://images.unsplash.com/photo-1581599129568-e33151627628?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-                        alt="avatar"
-                      />
-                    </a>
-                  </div>
-
-                  <a href="#">José Lucas</a>
-                </section>
-
-                <section class="publication-options">
-                  <a class="show-info">
-                    <img src="./assets/svg/more.svg" alt="Options" />
-                  </a>
-                </section>
-              </header>
-
-              <main class="publication-main">
-                <img
-                  src="https://images.unsplash.com/photo-1542328419-4a4359cf0450?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-                  alt=""
-                  class="full-width"
-                />
-              </main>
-
-              <footer class="publication-footer">
-                <section class="actions-container">
-                  <div class="actions-group">
-                    <button>
-                      <img src="./assets/svg/heart.svg" alt="Heart" />
-                    </button>
-                    <button>
-                      <img src="./assets/svg/comment.svg" alt="Comment" />
-                    </button>
-                    <button>
-                      <img src="./assets/svg/direct.svg" alt="Direct" />
-                    </button>
-                  </div>
-
-                  <button>
-                    <img src="./assets/svg/mark.svg" alt="Mark" />
-                  </button>
-                </section>
-
-                <section class="comments-container">
-                  <p><em>1.152</em> visualizações</p>
-
-                  <p><em>Lorem ipsum is dolor </em>ur, study purposes</p>
-                  <p>Representação textual: Lorem ipsum is dolor amet...</p>
-
-                  <a href="#" class="view-comments">Ver todos os comentários</a>
-                </section>
-
-                <section class="interaction-container">
-                  <img src="./assets/svg/smile.svg" alt="Smile" />
-
-                  <form action="#" method="POST" class="interaction-form">
-                    <input type="text" placeholder="Adicionar comentário..." />
-                    <button disabled type="button">Publicar</button>
-                  </form>
-                </section>
-              </footer>
-            </section>
-            <!-- End -->
           </section>
 
           <aside class="sidebar-container">
             <header class="sidebar-header">
               <section class="sidebar-profile">
                 <div class="avatar-container">
-                  <div href="#" class="avatar large" title="Imagem de perfil">
-                    <img
-                      src="https://images.unsplash.com/photo-1581599129568-e33151627628?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-                      alt="avatar"
-                    />
+                  <div class="avatar large" title="Imagem de perfil">
+                    <img src="./assets/people.jpg" alt="avatar" />
                   </div>
                 </div>
 
@@ -308,7 +204,6 @@
             <mian class="sidebar-main">
               <div class="sidebar-divider">
                 <h3>Sugestões para você</h3>
-
                 <a href="#">Ver tudo</a>
               </div>
 
@@ -317,10 +212,7 @@
                   <section class="sugestion-profile">
                     <div class="sugestion-avatar">
                       <div href="#" class="avatar" title="Imagem de perfil">
-                        <img
-                          src="https://images.unsplash.com/photo-1581599129568-e33151627628?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-                          alt="avatar"
-                        />
+                        <img src="./assets/people.jpg" alt="Avatar" />
                       </div>
                     </div>
 
@@ -337,10 +229,7 @@
                   <section class="sugestion-profile">
                     <div class="sugestion-avatar">
                       <div href="#" class="avatar" title="Imagem de perfil">
-                        <img
-                          src="https://images.unsplash.com/photo-1581599129568-e33151627628?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-                          alt="avatar"
-                        />
+                        <img src="./assets/people.jpg" alt="Avatar" />
                       </div>
                     </div>
 
@@ -357,10 +246,7 @@
                   <section class="sugestion-profile">
                     <div class="sugestion-avatar">
                       <div href="#" class="avatar" title="Imagem de perfil">
-                        <img
-                          src="https://images.unsplash.com/photo-1581599129568-e33151627628?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-                          alt="avatar"
-                        />
+                        <img src="./assets/people.jpg" alt="Avatar" />
                       </div>
                     </div>
 
@@ -377,10 +263,7 @@
                   <section class="sugestion-profile">
                     <div class="sugestion-avatar">
                       <div href="#" class="avatar" title="Imagem de perfil">
-                        <img
-                          src="https://images.unsplash.com/photo-1581599129568-e33151627628?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-                          alt="avatar"
-                        />
+                        <img src="./assets/people.jpg" alt="Avatar" />
                       </div>
                     </div>
 
@@ -420,58 +303,40 @@
     </div>
 
     <section class="publication-modal-wrapper hidden">
-      <section class="publication-modal">
-        <button class="publication-btn danger">Denunciar</button>
-        <button class="publication-btn danger">Deixar de seguir</button>
+      <div class="publication-modal">
+        <button class="danger">Denunciar</button>
+        <button class="danger">Deixar de seguir</button>
+        <button>Ir para publicação</button>
+        <button>Compartilhar</button>
+        <button>Copiar link</button>
+        <button>Incorporar</button>
 
-        <button class="publication-btn">Ir para publicação</button>
-        <button class="publication-btn">Compartilhar</button>
-        <button class="publication-btn">Copiar link</button>
-        <button class="publication-btn">Incorporar</button>
-        <button
-          class="publication-btn"
-          type="button"
-          data-id="publication-exit"
-        >
-          Cancelar
-        </button>
-      </section>
+        <button type="button" data-id="publication-exit">Cancelar</button>
+      </div>
     </section>
 
     <section class="mobile-menu-wrapper">
       <ul class="menu-list-container">
         <li class="menu-item">
-          <a href="#">
-            <img src="./assets/svg/home.svg" alt="home" />
-          </a>
+          <a><img src="./assets/svg/home.svg" alt="Home" /></a>
         </li>
 
         <li class="menu-item">
-          <a href="#">
-            <img src="./assets/svg/heart.svg" alt="Heart" />
-          </a>
+          <a><img src="./assets/svg/heart.svg" alt="Heart" /></a>
         </li>
 
         <li class="menu-item">
-          <a href="#">
-            <img src="./assets/svg/plus.svg" alt="Add" />
-          </a>
+          <a><img src="./assets/svg/plus.svg" alt="Add" /></a>
         </li>
 
         <li class="menu-item">
-          <a href="#">
-            <img src="./assets/svg/search-dark.svg" alt="Search" />
-          </a>
+          <a><img src="./assets/svg/search-dark.svg" alt="Search" /></a>
         </li>
 
         <li class="menu-item">
-          <a href="#">
-            <img src="./assets/svg/location.svg" alt="Location" />
-          </a>
+          <a><img src="./assets/svg/location.svg" alt="Location" /></a>
         </li>
       </ul>
     </section>
-
-    <script src="./scripts/index.js"></script>
   </body>
 </html>
