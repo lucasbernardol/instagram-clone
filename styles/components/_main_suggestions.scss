@@ -1,0 +1,122 @@
+.suggestions-container {
+  width: 100%;
+  margin-bottom: 4.5rem;
+  padding: 2.2rem;
+
+  background-color: var(--color-white);
+
+  border: 1px solid var(--color-gray-line);
+  border-radius: 0.5rem;
+}
+
+.suggestions-header {
+  width: 100%;
+  margin-bottom: 1.6rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h3 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--color-gray);
+  }
+
+  a {
+    color: var(--color-primary);
+    font-weight: 500;
+    font-size: 1.3rem;
+
+    padding: 0.5rem;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.suggestions-list {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: left;
+
+  overflow: auto;
+
+  .suggestion-item {
+    flex: 1;
+
+    padding: 2.2rem;
+    margin-right: 1.6rem;
+
+    border: 1px solid var(--color-gray-line);
+    border-radius: 0.5rem;
+
+    background: transparent;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &:last-child {
+      margin: 0;
+    }
+
+    a {
+      padding: 1rem;
+      font-weight: bold;
+      font-size: 1.4rem;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    small {
+      display: block;
+
+      width: 12rem;
+      margin-bottom: 1.6rem;
+
+      line-height: 1.2;
+      font-size: 1.3rem;
+      text-align: center;
+
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+
+    button {
+      width: 100%;
+      padding: 0.5rem 1.2rem; // (5px) (12px)
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      color: var(--color-white);
+      font-weight: 500;
+      border-radius: 0.5rem;
+
+      background-color: var(--color-primary);
+      transition: background 0.2s ease-out;
+
+      &:hover {
+        background-color: var(--color-primary-hover);
+      }
+    }
+  }
+}
+
+@media (max-width: 620px) {
+  .suggestions-container {
+    margin: 0;
+    padding: 1.6rem;
+
+    border: 0;
+    background: transparent;
+  }
+}
