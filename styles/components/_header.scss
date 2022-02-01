@@ -6,7 +6,6 @@
 .header-content {
   width: min(100%, 980px);
   height: 100%;
-
   padding: 0 1.6rem;
 
   display: flex;
@@ -17,6 +16,7 @@
 .marker-container {
   width: 10.3rem; // (100px)
   height: 2.9rem;
+
   cursor: pointer;
 }
 

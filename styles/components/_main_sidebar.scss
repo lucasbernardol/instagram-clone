@@ -1,90 +1,96 @@
-.sidebar-container {
+.aside-container {
   width: 32rem;
-
   margin-top: 4rem;
 
   position: sticky;
   top: 8rem;
+}
 
-  .sidebar-header {
+.aside-header {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .aside-bio {
+    display: flex;
+    align-items: center;
+
+    & > div:last-child {
+      margin-left: 1.5rem;
+    }
+
+    p {
+      color: var(--color-gray);
+    }
+  }
+
+  button {
+    padding: 0.5rem;
+
+    font-weight: 600;
+    color: var(--color-primary);
+  }
+}
+
+.aside-main {
+  width: 100%;
+  margin-bottom: 2.2rem;
+
+  .aside-main-header {
+    width: 100%;
+    margin: 1.6rem 0;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
 
-    .sidebar-profile {
-      display: flex;
-      align-items: center;
-
-      .avatar-container {
-        margin-right: 1.4rem;
-      }
-
-      p {
-        color: var(--color-gray);
-      }
+    h3 {
+      color: var(--color-gray);
     }
 
-    button {
-      font-weight: 600;
-      color: var(--color-primary);
-
+    a {
       padding: 0.5rem;
+
+      font-size: 1.3rem;
+      font-weight: 500;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 
-  .sidebar-main {
+  .aside-suggestions {
     width: 100%;
 
-    .sidebar-divider {
-      margin: 1.6rem 0;
+    display: flex;
+    flex-direction: column;
+
+    .aside-suggestion-item {
+      width: 100%;
+      margin-bottom: 1rem;
 
       display: flex;
       align-items: center;
       justify-content: space-between;
 
-      h3 {
-        color: var(--color-gray);
+      &:last-child {
+        margin: 0;
       }
 
-      a {
-        padding: 0.5rem;
-        font-size: 1.3rem;
-
-        font-weight: 500;
-
-        &:hover {
-          text-decoration: underline;
-        }
-      }
-    }
-
-    .sugestions-container {
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-
-      .sugestion-item {
+      .sugestion-item-profile {
+        flex: 1;
         display: flex;
-        align-items: center;
-        justify-content: space-between;
-
-        margin-bottom: 1rem;
-
-        &:last-child {
-          margin: 0;
-        }
-      }
-
-      .sugestion-profile {
-        display: flex;
-        justify-content: center;
+        justify-content: left;
         align-items: center;
 
         .sugestion-avatar {
           margin-right: 1.2rem;
         }
 
-        .bio-container {
+        .suggestion-bio {
           width: 18rem;
 
           p {
@@ -110,57 +116,62 @@
       }
 
       button {
+        padding: 0.5rem;
+
         background: transparent;
 
+        color: var(--color-primary);
         font-size: 1.3rem;
         font-weight: 500;
-        color: var(--color-primary);
-
-        padding: 0.5rem;
-      }
-    }
-  }
-
-  .sidebar-footer {
-    width: 100%;
-    margin: 2.5rem 0;
-
-    .links-container {
-      display: flex;
-      flex-wrap: wrap;
-
-      li {
-        a {
-          padding: 0.4rem;
-          color: var(--color-gray);
-          font-size: 1.2rem;
-
-          &:hover {
-            text-decoration: underline;
-          }
-        }
-      }
-    }
-
-    small {
-      display: block;
-
-      margin-top: 2rem;
-
-      font-size: 1.2rem;
-      text-transform: uppercase;
-      color: var(--color-gray);
-
-      em {
-        font-style: normal;
-        color: inherit;
       }
     }
   }
 }
 
+.aside-footer {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  .footer-hyperlinks {
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; // flex-start: (default)
+
+    li {
+      a {
+        padding: 0.4rem;
+
+        color: var(--color-gray);
+        font-size: 1.2rem;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  small {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: var(--color-gray);
+
+    margin-top: 2rem;
+    padding: 0.4rem;
+
+    span {
+      color: inherit;
+    }
+  }
+}
+
 @media (max-width: 980px) {
-  .sidebar-container {
+  .aside-container {
     display: none;
     opacity: 0;
 
