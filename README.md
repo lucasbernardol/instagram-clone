@@ -7,9 +7,9 @@
 </h4>
 
 <div align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/lucasbernardol/instagram-clone?style=social">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/lucasbernardol/instagram-clone?style=social">
-  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/lucasbernardol/instagram-clone?style=social">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/lucasbernardol/instagram-clone?style=social">&nbsp;&nbsp;
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/lucasbernardol/instagram-clone?style=social">&nbsp;&nbsp;
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/lucasbernardol/instagram-clone?style=social">&nbsp;&nbsp;
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/lucasbernardol/instagram-clone?style=social">
 </div>
 
@@ -51,3 +51,9 @@ Fique à vontade para escolher.
 ### :memo: Licença (MIT)
 
 Para mais informações veja o arquivo [LICENSE](LICENSE)
+
+---
+
+#### Extras: (estilo do código)
+
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
