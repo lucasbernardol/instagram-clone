@@ -3,7 +3,8 @@
 </h1>
 
 <h4 align="center">
-  UI clone: recriando a interface (feed) do Instagram em <b>HTML, SCSS e CSS <br/>(flexbox layout)</b>, propósitos de estudos.<br/>
+  UI clone: recriando a interface (feed) do Instagram em <b>HTML, SCSS
+  e CSS <br/> (flexbox layout)</b>, propósitos de estudos.<br/>
 </h4>
 
 <div align="center">
