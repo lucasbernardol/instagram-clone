@@ -1,9 +1,9 @@
 <h1 align="center">
-  <img src="./assets/logo.png" />
+  UI clone: Instagram 📷
 </h1>
 
 <h4 align="center">
-  UI clone: recriando a interface (feed) do Instagram em <b>HTML, SCSS e CSS (flexbox layout)</b>, propósitos de estudos.<br/>
+  UI clone: recriando a interface (feed) do Instagram em <b>HTML, SCSS e CSS <br/>(flexbox layout)</b>, propósitos de estudos.<br/>
 </h4>
 
 <div align="center">
@@ -20,8 +20,8 @@ acessar: [Instagram - DEMO :earth_americas:](https://lucasbernardol.github.io/in
 
 ## :information_source: Tecnologias
 
-- [x] HTML - Marcação
-- [x] SCSS - Linguagem de programação / pré-processador CSS
+- [x] HTML - Linguagem de marcação
+- [x] SCSS - Biblioteca / pré-processador CSS
 - [x] JavaScript - Linguagem de programação.
 
 ## :wrench: Como executar no ambiente local?
@@ -46,14 +46,10 @@ Fique à vontade para escolher.
 
 [<img src="https://avatars.githubusercontent.com/u/82418341?v=4" width="80px;"/>](https://github.com/lucasbernardol)
 
-[José Lucas L](https://github.com/lucasbernardol)
+[José Lucas](https://github.com/lucasbernardol)
 
 ### :memo: Licença (MIT)
 
 Para mais informações veja o arquivo [LICENSE](LICENSE)
-
----
-
-#### Extras: (estilo do código)
 
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
